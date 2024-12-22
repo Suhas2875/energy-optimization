@@ -45,7 +45,7 @@ tab1, tab2 = st.tabs(["Energy Generation Prediction", "Demand Prediction"])
 # Function to call Gemini API for explanation
 def explain_predictions(demand, generation):
     api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
-    api_key = "AIzaSyAqmyZRoO1uJiyz8TDQycWrtt8ZAfssODs"  # Replace with your actual API key
+    api_key = ""  # Replace with your actual API key
     headers = {"Content-Type": "application/json"}
     data = {
         "contents": [{
